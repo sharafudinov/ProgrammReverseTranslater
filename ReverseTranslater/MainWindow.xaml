@@ -1,0 +1,17 @@
+﻿<Window x:Class="ReverseTranslater.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReverseTranslater"
+        mc:Ignorable="d"
+        Title="ReverseTranslate" Height="193.424" Width="868.182">
+    <Grid>
+        <Button Content="->" HorizontalAlignment="Left" Margin="382,52,0,0" VerticalAlignment="Top" Width="98" Click="Button_Click" Height="33"/>
+        <TextBox HorizontalAlignment="Left" x:Name="TxtBox1_insert" Height="127" Margin="10,25,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="367"/>
+        <TextBox HorizontalAlignment="Left" x:Name="TxtBox1_Result" Height="127" Margin="485,25,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="367"/>
+        <Label Content="Текст для расшифровки" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0"/>
+        <Label Content="Расшифрованный текст" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="485,0,0,0"/>
+        <Button Content="Сброс" HorizontalAlignment="Left" Margin="382,90,0,0" VerticalAlignment="Top" Width="98" Height="33" Click="Button_Click_1"/>
+    </Grid>
+</Window>
